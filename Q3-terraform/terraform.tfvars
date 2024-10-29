@@ -18,5 +18,5 @@ PUBLIC_INSTANCE_COUNT   = 1  # number of public EC2 instances
 PRIVATE_INSTANCE_COUNT  = 1  # number of private EC2 instances
 
 # Path for the user data script
-USER_DATA_SCRIPT_PATH = "scripts/user_data.sh"  # Path to the user data script
+USER_DATA_SCRIPT_PATH = "./modules/ec2/user_data_script.sh"  # Path to the user data script
 
